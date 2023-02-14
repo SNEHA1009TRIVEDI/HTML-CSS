@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0;
-    
+
 }
-.header{
+
+header {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -10,9 +11,14 @@ body{
     padding: 2.0em;
     padding: 20px;
     margin: 0px;
-    
+
 }
-#subtitle{
+
+main {
+    display: flex;
+}
+
+#subtitle {
     font-size: 10px;
     font-weight: bold;
     color: rgb(246, 239, 239);
@@ -21,7 +27,8 @@ body{
     margin: 10px 0 10px 0;
     padding: 0px;
 }
-#heading{
+
+#heading {
     font-size: 30px;
     font-weight: bold;
     color: rgb(246, 239, 239);
@@ -30,14 +37,52 @@ body{
     margin: 0 0 10px 0;
     padding: 0px;
 }
-.Links{
+
+.Links {
     /* display: flex; */
     justify-content: flex-start;
     background-color: black;
     margin: 0px;
     padding: 0.5em;
 }
-.link{
+
+.link {
     color: azure;
     padding: 0.5em;
+}
+
+.left {
+    /* display: inline-block; */
+    background-color: lightgray;
+    width: 35%;
+    padding: 10px;
+}
+
+.right {
+    /* justify-content: flex-start; */
+    /* background-color: lightgray; */
+    width: 65%;
+    padding: 10px;
+}
+
+.left_upper_img{
+    background-color: darkgray;
+    padding: 2.0em;
+}
+.left_lower_img{
+    background-color: darkgray;
+    padding: 1.5em;
+    margin-bottom: 0.2em;
+}
+.right_img{
+    background-color: darkgray;
+    padding: 2.0em;
+}
+
+footer{
+    background-color: gray;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+
 }
